@@ -3,7 +3,15 @@
 
 ![Simscape](https://img.shields.io/badge/Simscape-Electrical-blue)
 
-MATLAB/Simscape simulation of X9C digital potentiometers with real-time delay modeling.
+The X9C10C is a digitally controlled potentiometer (digipot) from the X9C series, providing 1 / 10 / 50 / 100 kΩ resistance with 100 tap points (0-99) and ±20% resistance tolerance, that can be adjusted via digital signals. 
+It features a non-volatile memory to store wiper positions. Operates on -5 to 5V logic levels. The device uses a 3-wire interface (CS, U/D, INC) for increment/decrement control, with 1µs typical step response time, making it ideal for applications requiring programmable resistance like gain adjustment, calibration, or volume control. 
+
+**Pinout diagram**: https://github.com/tingerlingerr/DigiPotX9C/blob/main/wiring/circuit.png
+
+**Advantages**: Unlike mechanical potentiometers, it offers repeatable digital control without physical wear, though it has limited current handling (~1mA) and exhibits ±1 LSB wiper position uncertainty. 
+
+**Reason for building**: The simulation models in this repository aims to accurately replicate its timing characteristics and resistance taper behaviour.
+This repository presents MATLAB/Simscape Simulation codes of X9C digital potentiometers with real-time delay modeling.
 
 ## :clipboard: Folder Structure
 
