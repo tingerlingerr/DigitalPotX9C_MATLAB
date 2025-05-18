@@ -9,13 +9,13 @@ MATLAB/Simscape simulation of X9C digital potentiometers with real-time delay mo
 
 ```
 DigitalPotX9C_MATLAB/
-├── src/
-│   ├── MATLAB/
-│   └── Simscape/
-│       ├── Basic/
-│       └── Intermediate/
+├── docs/
 ├── examples/
-└── docs/
+└── src/
+     ├── MATLAB/
+     └── Simscape/
+            ├── Basic/
+            └── Intermediate/
 
 ```
 
