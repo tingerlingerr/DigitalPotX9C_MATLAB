@@ -23,9 +23,9 @@ DigitalPotX9C_MATLAB/
 
 Currently supports two simulation models:
 
-| Command                   | Action                                           |  Usage  |  Note
+| Model                     | Description                                      |  Usage                                            |  Note
 | :------------------------ | :----------------------------------------------- |  :----------------------------------------------- |  :----------------------------------------------- |
-| `Basic`                   | User may run the Simscape model as they want. Real-time delay as per datasheet is provided.                 | Open the Simscape model, update WIPER_CMD value and Run. If satisfied, you may directly copy it to any larger model you may want to control via a Digital Pot            |  Although mentioned 103s, changing the total resistance in the block will simulate any Digipot  |
+| `Basic`                   | User may run the Simscape model as they want. Real-time delay as per datasheet is provided.          | Open the Simscape model, update WIPER_CMD value and Run. If satisfied, you may directly copy it to any larger model you may want to control via a Digital Pot            |  Although mentioned 103s, changing the total resistance in the block will simulate any Digipot  |
 | `Intermediate`            | For wider control and programming, this model was developed for Simscape-MATLAB co-simulation environment. However, feel free to use it for Simscape-only usage.  |  This can be run both from the example matlab script, or directly from Simscape (logic similar to Basic model)  |:exclamation::exclamation:Incremental control and Storage functions have been written but their implementation is not proper. :grey_exclamation:Requesting help. Need to be improved currently.
 
 ## Credit
