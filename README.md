@@ -1,4 +1,4 @@
-# Digital Potentiometer X9C Simulation Toolkit
+# Digital Potentiometer X9C MATLAB-Simscape Electrical Simulation Toolkit
 ![MATLAB](https://img.shields.io/badge/MATLAB-R2023b-red)
 
 ![Simscape](https://img.shields.io/badge/Simscape-Electrical-blue)
