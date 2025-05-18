@@ -21,7 +21,7 @@ DigitalPotX9C_MATLAB/
 
 ## 🧞 Features
 
-Currently supports two simulation models:
+Currently supports two Simscape simulation models:
 
 | Model                     | Description                                      |  Usage                                            |  Note
 | :------------------------ | :----------------------------------------------- |  :----------------------------------------------- |  :----------------------------------------------- |
