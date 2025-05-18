@@ -12,5 +12,6 @@ wiper_cmd = 46;
 
 pot = X9C(model_name, digitpot_model, sim_time);
 
-pot.setWiperPos_Ideal(wiper_cmd);  % 
+pot.setWiperPos_Ideal(wiper_cmd);  % does not account for real-time digital logic delays
+
 disp("Finished.");
