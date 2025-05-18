@@ -12,10 +12,28 @@ Unfortunately, only the simple and ideal API is currently functional. Working to
 ## X9C Class
 ```
 classdef X9C
-
 ```
 
 ## Implementation File (refer examples)
+```
+model_name = 'xxx';                        % simscape .slx file name
+digitpot_model = yyy;                      % 102 - 1kohm
+                                           % 103 - 10kohm
+                                           % 104 - 100kohm
+sim_time = zzz;                            % simulation seconds
+
+% Begin simulation
+wiper_cmd = w;                             % wiper position command
+
+obj = X9C(model_name, pot_type, sim_time)  % intialise the constructor
+
+obj.function1();                           % function 1
+obj.function2();                           % function 2
+.
+.
+.
+
+```
 |Constructor       | Parameters   |  Usage  |  Notes  |
 | :---- | :-------    | :------ |  :------ |
 | `Parametric Constructor` | obj = X9C(model_name, pot_type, sim_time) | Initialisation  |  :grey_exclamation:Could think of introducing both default and parametric constructors  |
