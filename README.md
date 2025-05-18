@@ -5,13 +5,6 @@
 
 MATLAB/Simscape simulation of X9C digital potentiometers with real-time delay modeling.
 
-## Quick Start
-```matlab
-% Add to path
-addpath(genpath('src'));
-
-```
-
 ## :clipboard: Folder Structure
 
 ```
