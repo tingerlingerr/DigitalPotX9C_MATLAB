@@ -22,7 +22,6 @@ digitpot_model = yyy;                      % 102 - 1kohm
                                            % 104 - 100kohm
 sim_time = zzz;                            % simulation seconds
 
-% Begin simulation
 wiper_cmd = w;                             % wiper position command
 
 obj = X9C(model_name, pot_type, sim_time)  % intialise the constructor
